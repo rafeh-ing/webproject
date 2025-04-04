@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Adopt a Pet - Paws from Above</title>
+    <link rel="stylesheet" href="ADOPT.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+    <header class="adopt-header">
+        <div class="adopt-header-content">
+            <h1>Find Your Perfect Companion</h1>
+            <p>Each adoption saves two lives - the pet you adopt and the one who can now be rescued.</p>
+        </div>
+    </header>
+
+    <div class="adopt-container">
+        <div class="pet-filters">
+            <h2>Find Your Match</h2>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="species">Species</label>
+                    <select id="species">
+                        <option value="all">All Animals</option>
+                        <option value="dog">Dogs</option>
+                        <option value="cat">Cats</option>
+                        <option value="rabbit">Rabbits</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="age">Age</label>
+                    <select id="age">
+                        <option value="all">Any Age</option>
+                        <option value="puppy">Puppy/Kitten</option>
+                        <option value="young">Young</option>
+                        <option value="adult">Adult</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="size">Size</label>
+                    <select id="size">
+                        <option value="all">Any Size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="all">Any Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="pets-grid">
+            <div class="pet-card">
+                <img src="adopt.jpg" alt="Buddy the Dog" class="pet-image">
+                <div class="pet-info">
+                    <h3 class="pet-name">Buddy</h3>
+                    <div class="pet-meta">
+                        <span>Labrador Mix</span>
+                        <span>2 years</span>
+                    </div>
+                    <p>Friendly and energetic, Buddy loves playing fetch and going for long walks.</p>
+                    <a href="#" class="btn">Meet Buddy</a>
+                </div>
+            </div>
+
+            <div class="pet-card">
+                <img src="adopt2.jpg" alt="Whiskers the Cat" class="pet-image">
+                <div class="pet-info">
+                    <h3 class="pet-name">Whiskers</h3>
+                    <div class="pet-meta">
+                        <span>Domestic Shorthair</span>
+                        <span>5 years</span>
+                    </div>
+                    <p>Gentle and affectionate, Whiskers enjoys sunny spots and quiet evenings.</p>
+                    <a href="#" class="btn">Meet Whiskers</a>
+                </div>
+            </div>
+
+            <div class="pet-card">
+                <img src="adopt3.jpg" alt="Bella the Dog" class="pet-image">
+                <div class="pet-info">
+                    <h3 class="pet-name">Bella</h3>
+                    <div class="pet-meta">
+                        <span>Beagle Mix</span>
+                        <span>3 years</span>
+                    </div>
+                    <p>Sweet and curious, Bella has a great nose and loves exploring new scents.</p>
+                    <a href="#" class="btn">Meet Bella</a>
+                </div>
+            </div>
+
+            <div class="pet-card">
+                <img src="adopt5.jpg" alt="Mittens the Cat" class="pet-image">
+                <div class="pet-info">
+                    <h3 class="pet-name">Mittens</h3>
+                    <div class="pet-meta">
+                        <span>Siamese Mix</span>
+                        <span>1 year</span>
+                    </div>
+                    <p>Playful and vocal, Mittens will keep you entertained with her antics.</p>
+                    <a href="#" class="btn">Meet Mittens</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="adoption-process">
+            <h2>Our Adoption Process</h2>
+            <p>We want to ensure every pet finds the perfect forever home. Here's how our adoption process works:</p>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <i class="fas fa-search"></i>
+                    <h3>1. Find Your Pet</h3>
+                    <p>Browse our available animals online or visit our shelter.</p>
+                </div>
+                <div class="process-step">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>2. Submit Application</h3>
+                    <p>Complete our adoption application form.</p>
+                </div>
+                <div class="process-step">
+                    <i class="fas fa-home"></i>
+                    <h3>3. Home Check</h3>
+                    <p>We'll schedule a home visit to ensure compatibility.</p>
+                </div>
+                <div class="process-step">
+                    <i class="fas fa-paw"></i>
+                    <h3>4. Meet & Greet</h3>
+                    <p>Introduce all family members to your potential pet.</p>
+                </div>
+                <div class="process-step">
+                    <i class="fas fa-heart"></i>
+                    <h3>5. Finalize Adoption</h3>
+                    <p>Sign paperwork and welcome your new family member!</p>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <a href="#" class="btn">Download Adoption Application</a>
+                <a href="#" class="btn-outline">Adoption FAQs</a>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>Adoption FAQs</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What are your adoption fees?</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Our adoption fees vary by animal and typically range from 50dt-200dt. This includes spay/neuter, vaccinations, microchipping, and a health check.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What requirements do you have for adopters?</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Adopters must be at least 21 years old, provide proof of address, and demonstrate the ability to care for the animal.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I return a pet if it doesn't work out?</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we have a lifetime return policy. If for any reason you can no longer care for your adopted pet, we require that you return them to us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Paws from Above. All rights reserved.</p>
+    </footer>
+</body>
+</html>
